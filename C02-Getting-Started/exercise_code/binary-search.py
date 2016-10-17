@@ -7,7 +7,7 @@ def binarysearch(items, v):
     while low <= high:
         mid = (low+high)/2
         if(items[mid] == v):
-            return mid
+            return mid+1
         elif(items[mid] < v):
             low += 1
         else:
